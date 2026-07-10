@@ -129,10 +129,13 @@ p { margin: 0 0 1em; }
 
 .site-nav { background: var(--pine-dark); }
 
-.nav-inner {
+.nav-wrap {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.25rem;
+}
+
+.nav-inner {
   display: flex;
   flex-wrap: wrap;
 }
@@ -161,6 +164,8 @@ p { margin: 0 0 1em; }
   font-family: var(--font-body);
   font-size: 0.9rem;
   cursor: pointer;
+  width: 100%;
+  text-align: left;
 }
 
 /* ---------- Main content ---------- */
