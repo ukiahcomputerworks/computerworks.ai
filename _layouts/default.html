@@ -1,58 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-
-  {% include head.html %}
-
-  <body>    
-    <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center">
-      <table width="760" border="0" cellpadding="20" cellspacing="0" id="page"><tr><td align="center">
-        <table width="720" border="0" cellpadding="0" cellspacing="0" id="main">
-          <tr>
-            <td width="720" colspan="2" id="header"><a href="/"><img id="computer_works_of_ukiah" 
-              src="{{ "/images/computer-works-of-ukiah.gif" | prepend: site.baseurl }}" width="720" height="282" alt="Computer Works of Ukiah" /></a></td>
-          </tr>
-          <tr>
-            <td width="156" align="left" valign="top" class="sidebar-left">
-              <div id="sidebar-top-left">
-                <div id="sidebar-top-right">
-                  <div><img src="{{ "/images/spacer.gif" | prepend: site.baseurl }}" border="0" width="150" height="0" alt="" /></div>
-                  <div id="sidebar-left" class="sidebar">
-                    <div class="sidebar-button"><a href="/" title="Home">Home</a></div>
-                    <div class="sidebar-button"><a href="/clientele/" title="A Sample List Of Our Business Clients">Clientele</a></div>
-                    <div class="sidebar-button"><a href="/testimonials/" title="Some Of Our Satisfied Clients&#039; Praises">Testimonials</a></div>
-                    <div class="sidebar-button"><a href="/certifications/" title="Education and Experience">Certifications</a></div>
-                    <div class="sidebar-button"><a href="/contact/" title="Submit A Request For Service!">Contact Us</a></div>
-                    <div class="sidebar-button"><a href="/awards/" title="Ukiah Award Program">Awards</a></div>
-                  </div>
-                </div>
-              </div>
-            </td>
-            <td width="564" align="left" valign="top" rowspan="2" id="content">
-              {{ content }}
-            </td>
-          </tr>
-          <tr>
-            <td width="156" valign="bottom" class="sidebar-left">
-              <div id="sidebar-bottom-left">
-                <div id="sidebar-bottom-right">
-                  <img src="{{ "/images/spacer.gif" | prepend: site.baseurl }}" width="1" height="15" border="0" alt="" />
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td width="720" colspan="2" id="footer">
-              <table width="720" border="0" cellpadding="0" cellspacing="0" id="footer-bar">
-                <tr>
-                  <td id="footer-left"><img src="{{ "/images/spacer.gif" | prepend: site.baseurl }}" width="15" height="27" alt="" /></td>
-                  <td id="footer-text">&copy; 2006-2018 Computer Works of Ukiah <a href="tel:7074628275">(707) 462-8275</a></td>
-                  <td id="footer-right"><img src="{{ "/images/spacer.gif" | prepend: site.baseurl }}" width="15" height="27" alt="" /></td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td></tr></table>
-    </td></tr></table>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <main class="site-shell">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
 </html>
