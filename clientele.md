@@ -24,7 +24,7 @@ published: true
   <li><a href="https://www.myersmedicalpharmacy.com/" target="_blank" rel="noopener" title="Network Support">Myers Medical Pharmacy</a></li>
   <li><a href="http://www.yelp.com/biz/mccartys-autobody-ukiah" target="_blank" rel="noopener" title="Network Support">McCarty's Auto Body</a></li>
   <li><a href="http://www.nciha.org" target="_blank" rel="noopener" title="Network Support">Northern Circle Indian Housing Authority</a></li>
-  <li><a href="http://www.yellowpages.com/ukiah-ca/mip/reliable-mill-supply-co-inc-2316494" target="_blank" rel="noopener" title="Network Support">Reliable Mill Supply</a></li>
+  <li><a href="https://www.penofin.com/" target="_blank" rel="noopener" title="Network Support">Penofin Performance Coatings</a></li>
   <li><a href="http://www.rinehartoil.com/" target="_blank" rel="noopener" title="Network Support">Rinehart Oil</a></li>
-  <li><a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=301+West+Lake+Mendocino+Dr.&amp;sll=37.0625,-95.677068&amp;sspn=34.534108,59.238281&amp;ie=UTF8&amp;ll=39.193083,-123.2127&amp;spn=0.008249,0.014462&amp;z=16&amp;iwloc=addr&amp;om=0" target="_blank" rel="noopener" title="Network Support">Yokayo Wine Co.</a></li>
+  <li><a href="https://www.yokayowineco.com/" target="_blank" rel="noopener" title="Network Support">Yokayo Wine Co.</a></li>
 </ul>
