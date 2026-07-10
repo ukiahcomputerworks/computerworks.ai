@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="brand" href="{{ site.baseurl }}/">
+      <img class="brand-logo" src="{{ "/images/computer-works-of-ukiah.png" | prepend: site.baseurl }}" width="720" height="282" alt="Computer Works of Ukiah &mdash; {{ site.slogan }}">
+    </a>
+    <a class="header-phone" href="tel:7074628275">(707) 462-8275</a>
+  </div>
+  <nav class="site-nav">
+    <div class="nav-inner" id="nav-inner">
+      <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+      <a class="nav-link" href="{{ site.baseurl }}/clientele/">Clientele</a>
+      <a class="nav-link" href="{{ site.baseurl }}/testimonials/">Testimonials</a>
+      <a class="nav-link" href="{{ site.baseurl }}/certifications/">Certifications</a>
+      <a class="nav-link" href="{{ site.baseurl }}/awards/">Awards</a>
+      <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact Us</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-inner" onclick="var n=document.getElementById('nav-inner');var open=n.classList.toggle('is-open');this.setAttribute('aria-expanded',open);">Menu ▾</button>
+    </div>
+  </nav>
+</header>
