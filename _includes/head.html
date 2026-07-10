@@ -1,22 +1,10 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }} - {% if page.page_title %}{{ page.page_title }}{% else %}{{ site.slogan }}{% endif %}</title>
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <script type="text/javascript"><!--
-  var BASE_URL = "/";
-  --></script>
-  
-  <script type="text/javascript" src="{{ "/js/drupal.js" | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ "/js/img_assist.js" | prepend: site.baseurl }}"></script>
-  <meta name="description" content="Welcome to Computer Works of Ukiah." />
-  <meta name="keywords" content="Computer,Repair,Networking,Support" />
-  <meta name="robots" content="index,follow" />
-  <link rel="stylesheet" href="{{ "/css/drupal.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/img_assist.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/devel.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <meta name="description" content="{% if page.page_title %}{{ page.page_title }}{% else %}{{ site.slogan }}{% endif %} Local computer repair, networking, and IT support in Ukiah, CA.">
+  <meta name="keywords" content="Computer Repair Ukiah, Network Support Mendocino County, IT Support Ukiah CA">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 </head>
