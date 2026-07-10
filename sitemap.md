@@ -6,34 +6,14 @@ permalink: /sitemap/
 published: true
 ---
 
-<p> Last updated: 2017, July 13</p>
-<table border="0" cellpadding="0">
-  <tbody>
-    <tr valign="top">
-      <td class="lpart" colspan="100">
-        <table border="0">
-          <tbody>
-            <tr>
-              <td class="lpage"><a href="/">Home - Ukiah&#39;s Best Computer Networking Company!</a></td>
-            </tr>
-            <tr>
-              <td class="lpage"><a href="/clientele/">Clientele - Maintaining So Many Satisfied Customers!</a></td>
-            </tr>
-            <tr>
-              <td class="lpage"><a href="/testimonials/">Testimonials - Feedback From Our Clients</a></td>
-            </tr>
-            <tr>
-              <td class="lpage"><a href="/certifications/">Certifications - We are Industry Certified</a></td>
-            </tr>
-            <tr>
-              <td class="lpage"><a href="/contact/">Contact Us!</a></td>
-            </tr>
-            <tr>
-              <td class="lpage"><a href="/local/">Local Businesses</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<ul class="directory-list">
+  <li><a href="{{ site.baseurl }}/">Home &mdash; Ukiah's Industry-Certified IT &amp; Network Support</a></li>
+  <li><a href="{{ site.baseurl }}/clientele/">Clientele &mdash; Maintaining Many Satisfied Customers</a></li>
+  <li><a href="{{ site.baseurl }}/testimonials/">Testimonials &mdash; Feedback From Our Clients</a></li>
+  <li><a href="{{ site.baseurl }}/certifications/">Certifications &mdash; We Are Industry Certified</a></li>
+  <li><a href="{{ site.baseurl }}/awards/">Awards</a></li>
+  <li><a href="{{ site.baseurl }}/contact/">Contact Us</a></li>
+  <li><a href="{{ site.baseurl }}/local/">Local Businesses</a></li>
+  <li><a href="{{ site.baseurl }}/maps/">Map To Our Office</a></li>
+  <li><a href="{{ site.baseurl }}/tips/">Computer Tips</a></li>
+</ul>

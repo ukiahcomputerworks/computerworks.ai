@@ -1,22 +1,47 @@
 ---
 layout: page
 page_title: Tweaks For Your Computer
-title: Windows XP Tips
+title: Everyday Computer Tips
 permalink: /tips/
+published: true
 ---
 
-<p>Press Win+L to switch to the Welcome screen.<br />-----<br />Press Win+L to lock your workstation.<br />-----<br />You can switch users without going through the Welcome screen:  From Task Manager, go to the Users tab, right-click a user, and select Connect.<br />-----<br />Hold down the shift key in the shutdown dialog to change &quot;Stand By&quot; to &quot;Hibernate&quot;.  Or just press H to hibernate instantly.  You can even use the Power Control Panel to configure your power button to hibernate.<br />-----<br />To disable the password when resuming from standby or hibernation, open the Power Control Panel and uncheck &quot;Prompt for password after returning from standby&quot; on the Advanced tab.<br />-----<br />You can rename multiple files all at once: Select a group of files, right-click the first file, and select &quot;Rename&quot;. Type in a name for the first file, and the rest will follow.<br />-----<br />Hold down the shift key when switching to thumbnail view to hide the file names.  Do it again to bring them back.<br />-----<br />When dragging a file in Explorer, you can control the operation that will be performed when you release the mouse button:</p>
-<p>Hold the Control key to force a Copy.</p>
-<p>Hold the Shift key to force a Move.</p>
-<p>Hold the Alt key to force a Create Shortcut.<br />-----<br />If you create a file called Folder.jpg, that image will be used as the thumbnail for the folder.  What&#39;s more, that image will also be used as the album art in Windows Media Player for all media files in that folder.<br />-----<br />From the View Menu, select &quot;Choose Details&quot; to select which file properties should be shown in the Explorer window. To sort by a file property, check its name in the &quot;Choose Details&quot; in order to make that property available in the &quot;Arrange Icons by&quot; menu.<br />-----<br />To display the volume control icon in the taskbar, go to the Sounds and Audio Devices Control Panel and select &quot;Place volume icon in the taskbar&quot;.<br />-----<br />Hold down the shift key when deleting a file to delete it immediately instead of placing it in the Recycle Bin. Files deleted in this way cannot be restored.<br />-----<br />If you hold down the shift key while clicking &quot;No&quot; in a Confirm File Operation dialog, the response will be interpreted as &quot;No to All&quot;.<br />-----<br />To save a document with an extension other than the one a program wants to use, enclose the entire name in quotation marks.  For example, if you run Notepad and save a file under the name</p>
-<p>Dr.Z</p>
-<p>it will actually be saved under the name Dr.Z.txt.  But if you type</p>
-<p>&quot;Dr.Z&quot;</p>
-<p>then the document will be saved under the name Dr.Z.  Note that a document so-named cannot be opened via double-clicking since the extension is no longer &quot;.txt&quot;.<br />-----<br />Put a shortcut to your favorite editor in your Send To folder and it will appear in your &quot;Send To&quot; menu. You can then right-click any file and send it to your editor.<br />-----<br />Ctrl+Shift+Escape will launch Task Manager.<br />-----<br />To arrange two windows side-by-side, switch to the first window, then hold the Control key while right-clicking the taskbar button of the second window.  Select &quot;Tile Vertically&quot;.<br />-----<br />To close several windows at once, hold down the Control key while clicking on the taskbar buttons of each window.  Once you have selected all the windows you want to close, right-click the last button you selected and pick &quot;Close Group&quot;.<br />-----<br />You can turn a folder into a desktop toolbar by dragging the icon of the desired folder to the edge of the screen. You can then turn it into a floating toolbar by dragging it from the edge of the screen into the middle of the screen.  (It helps if you minimize all application windows first.)<br />-----<br />You can turn a folder into a taskbar toolbar.</p>
-<p>First, unlock your taskbar.</p>
-<p>Next, drag the icon of the desired folder to the space between the taskbar buttons and the clock. (Wait for the no-entry cursor to change to an arrow. It&#39;s a very tiny space; you will have to hunt for it.)</p>
-<p>You can rearrange and resize the taskbar toolbar you just created.</p>
-<p>You can even turn the taskbar toolbar into a menu by resizing it until only its name is visible.<br />-----<br />In the Address Bar, type &quot;microsoft&quot; and hit Ctrl+Enter.  Internet Explorer automatically inserts the &quot;<a href="http://www/">http://www/</a>.&quot; and &quot;.com&quot; for you.<br />-----<br />To remove an AutoComplete entry from a Web form, highlight the item in the AutoComplete dropdown and press the Delete key.</p>
-<p>To remove all Web form AutoComplete entries, go to the Internet Explorer Tools menu, select Internet Options, Content, AutoComplete, then press the &quot;Clear Forms&quot; button.<br />-----<br />To organize your Favorites in Explorer instead of using the Organize Favorites dialog, hold the shift key while selecting &quot;Organize Favorites&quot; from the Favorites menu of an Explorer window.<br />-----<br />You can organize your Favorites by dragging the items around your Favorites menu.</p>
-<p>Alternatively, you can open the Favorites pane and hold the Alt key while pressing the up and down arrows to change the order of your Favorites.<br />-----<br />To run Internet Explorer fullscreen, press F11. Do it again to return to normal mode.<br />-----<br />If your &quot;Printers and Faxes&quot; folder is empty, you can hide the &quot;Printers and Faxes&quot; icon when viewed from other computers by stopping the Print Spooler service.<br />-----<br />To add or remove columns from Details mode, select Choose Details from the View menu, or just right-click the column header bar.<br />-----<br />In Internet Explorer, hold the Shift key while turning the mouse wheel to go forwards or backwards.<br />-----<br />In Internet Explorer, hold the Shift key while clicking on a link to open the Web page in a new window.<br />-----<br />In Internet Explorer, type Ctrl+D to add the current page to your Favorites.</p>
-<p>This and many more keyboard shortcuts can be found by going to Internet Explorer, clicking the Help menu, then selecting Contents and Index.  From the table of contents, open Accessibility and click &quot;Using Internet Explorer keyboard shortcuts&quot;.<br />-----<br />In some applications (such as Internet Explorer), holding the Control key while turning the mouse wheel will change the font size.<br />-----<br />To shut down via Remote Desktop, click the Start button, then type Alt+F4.<br />-----</p>
+<p>A few tricks our engineers use every day &mdash; on Windows, Mac, and the browser.</p>
+
+<h2>Windows 10 &amp; 11</h2>
+<ul class="directory-list">
+  <li><strong>Win + L</strong> &mdash; Lock your workstation instantly before stepping away.</li>
+  <li><strong>Win + Shift + S</strong> &mdash; Snip any part of your screen straight to the clipboard.</li>
+  <li><strong>Win + Tab</strong> &mdash; Open Task View to see every window and virtual desktop at once.</li>
+  <li><strong>Win + .</strong> (period) &mdash; Open the emoji and symbol picker in any text field.</li>
+  <li><strong>Win + V</strong> &mdash; Open clipboard history and paste something you copied earlier. Enable it first under Settings &gt; System &gt; Clipboard.</li>
+  <li><strong>Ctrl + Shift + Esc</strong> &mdash; Jump straight to Task Manager, no right-click needed.</li>
+  <li><strong>Win + Ctrl + Shift + B</strong> &mdash; Restart your graphics driver if the display freezes or glitches, without rebooting.</li>
+</ul>
+
+<h2>macOS</h2>
+<ul class="directory-list">
+  <li><strong>Cmd + Space</strong> &mdash; Spotlight search: launch an app, do quick math, or find a file.</li>
+  <li><strong>Cmd + Shift + 4</strong> &mdash; Screenshot a selected area; add Space after to screenshot just one window.</li>
+  <li><strong>Cmd + Ctrl + Q</strong> &mdash; Lock your screen instantly.</li>
+  <li><strong>Three-finger drag</strong> &mdash; Enable it under Accessibility &gt; Pointer Control to move windows without holding the trackpad down.</li>
+  <li><strong>Cmd + Option + Esc</strong> &mdash; Force-quit a frozen application.</li>
+</ul>
+
+<h2>Browser (Chrome, Edge, Firefox)</h2>
+<ul class="directory-list">
+  <li><strong>Ctrl/Cmd + Shift + T</strong> &mdash; Reopen the last tab you closed by accident. Repeat to reopen more.</li>
+  <li><strong>Ctrl/Cmd + L</strong> &mdash; Jump to the address bar from anywhere on the page.</li>
+  <li><strong>Ctrl/Cmd + Shift + N</strong> &mdash; Open a private/incognito window.</li>
+  <li><strong>Middle-click a link</strong> &mdash; Opens it in a new background tab without leaving your place.</li>
+</ul>
+
+<h2>General security habits</h2>
+<ul class="directory-list">
+  <li>Turn on automatic updates for your operating system and browser &mdash; most real-world attacks exploit patches that were available months earlier.</li>
+  <li>Use a password manager instead of reusing passwords; a breach on one site shouldn't compromise the rest.</li>
+  <li>Enable two-factor authentication on email first &mdash; it's the account attackers use to reset everything else.</li>
+  <li>Back up important files to at least two places: one local (external drive) and one offsite (cloud).</li>
+</ul>
+
+<p>Running into something these tips don't cover? <a href="{{ site.baseurl }}/contact/">Give us a call</a> &mdash; that's what we're here for.</p>
