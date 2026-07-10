@@ -93,6 +93,7 @@ p { margin: 0 0 1em; }
   width: 100%;
   max-width: 480px;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .site-header-inner {
@@ -108,7 +109,8 @@ p { margin: 0 0 1em; }
 .brand-slogan-text {
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  color: var(--brass);
+  font-weight: 600;
+  color: var(--paper);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
