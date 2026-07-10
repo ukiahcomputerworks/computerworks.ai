@@ -14,6 +14,5 @@ published: true
   <li><a href="{{ site.baseurl }}/awards/">Awards</a></li>
   <li><a href="{{ site.baseurl }}/contact/">Contact Us</a></li>
   <li><a href="{{ site.baseurl }}/local/">Local Businesses</a></li>
-  <li><a href="{{ site.baseurl }}/maps/">Map To Our Office</a></li>
   <li><a href="{{ site.baseurl }}/tips/">Computer Tips</a></li>
 </ul>
