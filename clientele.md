@@ -6,7 +6,9 @@ permalink: /clientele/
 published: true
 ---
 
-<p>A sample of the businesses and organizations we support across Mendocino County.</p>
+<p>A sample of the businesses and organizations we support across Mendocino County. These relationships span laboratory services, local government, healthcare, law, manufacturing, retail, housing, and other operations where dependable technology directly affects the work.</p>
+
+<p>For many clients, Computer Works is responsible for more than individual computers: Microsoft servers and identity, virtualization, remote access, networks and firewalls, patching and endpoint security, backups, vendor coordination, upgrades, and recovery when something critical fails.</p>
 
 <ul class="two-col-list">
   <li><a href="http://www.alpha-labs.com/" target="_blank" rel="noopener" title="Complete Network and Server Support">Alpha Analytical Laboratories</a></li>
