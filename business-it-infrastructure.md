@@ -10,7 +10,7 @@ published: true
   <div class="digital-hero infrastructure-hero">
     <div class="digital-hero-copy">
       <p class="eyebrow">Since 2006 <span aria-hidden="true">/</span> senior infrastructure practice</p>
-      <h1 class="main-title">Microsoft infrastructure, networks, and recovery under one accountable technical partner</h1>
+      <h1 class="main-title">Microsoft Infrastructure, Networks, and Recovery Under One Accountable Technical Partner</h1>
       <p class="hero-lead">Computer Works of Ukiah manages the systems behind daily operations, from Active Directory and Hyper-V to firewalls, patching, endpoint security, and recoverable backups.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="tel:7074628275">Call (707) 462-8275</a>
