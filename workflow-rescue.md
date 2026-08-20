@@ -2,7 +2,7 @@
 layout: default
 page_title: 48-Hour Web & Workflow Rescue
 description: A fixed-scope 48-hour website repair service for Ukiah and Mendocino County businesses, with practical workflow fixes and human-reviewed testing.
-permalink: /48-hour-web-workflow-rescue/
+permalink: /48hr-web-rescue/
 published: true
 ---
 

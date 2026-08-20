@@ -14,7 +14,7 @@ published: true
       <p class="hero-lead">We turn the forms, documents, email, spreadsheets, calendars, and business systems you already use into workflows that save time, catch errors, and keep important decisions in your hands.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="{{ site.baseurl }}/contact/">Discuss One Repetitive Task</a>
-        <a class="btn btn-ghost" href="{{ site.baseurl }}/48-hour-web-workflow-rescue/">Need a Faster Website Repair?</a>
+        <a class="btn btn-ghost" href="{{ site.baseurl }}/48hr-web-rescue/">Need a Faster Website Repair?</a>
       </div>
     </div>
   </div>
