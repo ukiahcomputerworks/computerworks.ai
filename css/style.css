@@ -115,7 +115,7 @@ p { margin: 0 0 1em; }
     linear-gradient(135deg, #07111B 0%, #101D2A 52%, #09131E 100%);
   border-bottom: 1px solid var(--signal-border);
   text-align: center;
-  padding: 0.85rem 1.25rem 0.6rem;
+  padding: 0 1.25rem;
 }
 
 .logo-banner::after {
@@ -134,7 +134,7 @@ p { margin: 0 0 1em; }
   width: 100%;
   max-width: 510px;
   object-fit: contain;
-  margin: 0 auto;
+  margin: max(-22px, -4.2vw) auto max(-27px, -5vw);
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.32));
 }
 
@@ -346,6 +346,13 @@ main { display: block; padding: 2rem 0 3rem; }
 .digital-hero h1 {
   font-size: clamp(2rem, 5vw, 3.5rem);
   letter-spacing: -0.035em;
+}
+
+.home-hero h1,
+.infrastructure-page .digital-hero h1,
+.rescue-page .digital-hero h1 {
+  font-size: clamp(1.8rem, 3.6vw, 2.75rem);
+  line-height: 1.08;
 }
 
 .eyebrow,
@@ -792,7 +799,7 @@ main { display: block; padding: 2rem 0 3rem; }
 @media (max-width: 680px) {
   body { background-attachment: scroll; }
   .site-shell { padding: 0 0.75rem; }
-  .logo-banner { padding: 0.65rem 0.75rem 0.4rem; }
+  .logo-banner { padding: 0 0.75rem; }
   .brand-logo { max-width: 330px; }
   .site-header-inner { flex-wrap: wrap; justify-content: center; text-align: center; }
   .menu-toggle { display: block; }
@@ -837,6 +844,9 @@ main { display: block; padding: 2rem 0 3rem; }
   }
   .digital-hero { padding: 1.5rem 0.9rem; }
   .digital-hero h1 { font-size: clamp(1.75rem, 11vw, 2.35rem); }
+  .home-hero h1,
+  .infrastructure-page .digital-hero h1,
+  .rescue-page .digital-hero h1 { font-size: clamp(1.65rem, 8vw, 2.05rem); }
   .service-card,
   .proof-card,
   .scope-panel,
