@@ -10,7 +10,7 @@ published: true
   <div class="digital-hero rescue-hero">
     <div class="digital-hero-copy">
       <p class="eyebrow">Fixed scope <span aria-hidden="true">/</span> 48-hour turnaround</p>
-      <h1 class="main-title">CWU 48-Hour Web &amp; Workflow Rescue</h1>
+      <h1 class="main-title">48-Hour Web &amp; Workflow Rescue</h1>
       <p class="hero-lead">When a small website problem is costing calls, leads, or credibility, you should not need to start a six-week redesign just to get it fixed.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="{{ site.baseurl }}/contact/">Request a 15-Minute Fit Check</a>

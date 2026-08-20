@@ -4,6 +4,7 @@ page_title: Maintaining Many Satisfied Customers!
 title: Our Clientele
 permalink: /clientele/
 published: true
+page_class: standard-title clientele-page
 ---
 
 <h2>Supporting Mendocino County's Daily Operations</h2>

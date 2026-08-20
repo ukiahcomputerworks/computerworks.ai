@@ -4,6 +4,7 @@ page_title: "Formal Training &amp; Real-World Operations"
 title: "FORMAL TRAINING &amp; REAL-WORLD OPERATIONS"
 permalink: /certifications/
 published: true
+page_class: standard-title
 ---
 
 <h2>Foundational Expertise, Modern Execution</h2>

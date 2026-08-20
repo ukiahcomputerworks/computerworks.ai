@@ -4,6 +4,7 @@ page_title: Contact Us
 title: Contact Us
 permalink: /contact/
 published: true
+page_class: standard-title
 ---
 
 <p>Call <a class="phone-cta" href="tel:7074628275">(707) 462-8275</a> or fill out the form below with any questions. Thank you.</p>
