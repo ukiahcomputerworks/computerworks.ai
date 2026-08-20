@@ -1,16 +1,16 @@
 ---
 layout: page
-page_title: Certification History & Continuing Field Experience
-title: Formal Training, Sustained Through Real-World Operations
+page_title: "Formal Training &amp; Real-World Operations"
+title: "FORMAL TRAINING &amp; REAL-WORLD OPERATIONS"
 permalink: /certifications/
 published: true
 ---
 
-<p>Computer Works has a formal certification history across Microsoft server administration, Novell networks, Cisco networking, and computer hardware. These credentials were earned earlier in our career and are not represented as current certifications.</p>
+<h2>Foundational Expertise, Modern Execution</h2>
 
-<p>The foundation has remained active through continued responsibility for production Active Directory, Exchange and Microsoft 365, Hyper-V, Remote Desktop Services, DNS, DHCP, firewalls, endpoint operations, backup systems, migrations, and disaster recovery.</p>
+<p>Our technical foundation was built during the formative years of enterprise IT, backed by core engineering credentials including MCSE (Windows NT 4.0 &amp; 2000), Certified Novell Administrator, and CCNA. Rather than just holding legacy paper, we used that knowledge as the bedrock for an unbroken, decades-long track record of continuous infrastructure management.</p>
 
-<p>Certification history includes Microsoft MCSE work for Windows NT 4.0 and Windows 2000, Certified Novell Administrator, and Cisco Certified Network Associate.</p>
+<p>That deep structural understanding, knowing exactly how networks were built from the ground up, directly informs how we operate today. We bring an irreplaceable, architectural perspective to managing production Active Directory, Microsoft 365, Hyper-V virtualization, Remote Desktop Services, complex firewalls, and zero-downtime disaster recovery.</p>
 
 <ul class="cert-grid">
   <li><figure><img src="/files/images/MCP_0.png" alt="Historical Microsoft Certified Professional badge" width="268" height="67" loading="lazy"><figcaption>Microsoft certification history</figcaption></figure></li>

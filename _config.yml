@@ -6,3 +6,5 @@ url: "https://www.computerworksofukiah.com" # the base hostname & protocol for y
 
 # Build settings
 markdown: kramdown
+exclude:
+  - .trash

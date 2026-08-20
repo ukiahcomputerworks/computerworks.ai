@@ -6,7 +6,7 @@ permalink: /contact/
 published: true
 ---
 
-<p>Call <a class="phone-cta" href="tel:7074628275">(707) 462-8275</a> or fill out the form below with any questions &mdash; thank you.</p>
+<p>Call <a class="phone-cta" href="tel:7074628275">(707) 462-8275</a> or fill out the form below with any questions. Thank you.</p>
 
 <div id="wufoo-z9cbgzd0wxkahu"></div>
 <script type="text/javascript">

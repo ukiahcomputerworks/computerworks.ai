@@ -1,6 +1,6 @@
 <div class="logo-banner">
   <a href="{{ site.baseurl }}/">
-    <img class="brand-logo" src="{{ "/images/computer-works-of-ukiah-modern-v1.png" | prepend: site.baseurl }}" width="1919" height="820" alt="Computer Works of Ukiah &mdash; {{ site.slogan }}">
+    <img class="brand-logo" src="{{ "/images/computer-works-of-ukiah-modern-v1.png" | prepend: site.baseurl }}" width="1919" height="820" alt="Computer Works of Ukiah: {{ site.slogan }}">
   </a>
 </div>
 <header class="site-header">
@@ -13,9 +13,8 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-inner" onclick="var n=document.getElementById('nav-inner');var open=n.classList.toggle('is-open');this.setAttribute('aria-expanded',open);">Menu ▾</button>
       <div class="nav-inner" id="nav-inner">
         <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-        <a class="nav-link nav-link-signal" href="{{ site.baseurl }}/business-it-infrastructure/">Infrastructure</a>
+        <a class="nav-link" href="{{ site.baseurl }}/business-it-infrastructure/">Infrastructure</a>
         <a class="nav-link" href="{{ site.baseurl }}/clientele/">Clientele</a>
-        <a class="nav-link" href="{{ site.baseurl }}/testimonials/">Testimonials</a>
         <a class="nav-link" href="{{ site.baseurl }}/automation/">Automation</a>
         <a class="nav-link" href="{{ site.baseurl }}/48-hour-web-workflow-rescue/">48-Hour Rescue</a>
         <a class="nav-link" href="{{ site.baseurl }}/certifications/">Certifications</a>
@@ -24,3 +23,23 @@
     </div>
   </nav>
 </header>
+<script>
+  (function () {
+    function normalizePath(path) {
+      var normalized = path.replace(/index\.html$/, '');
+      return normalized.endsWith('/') ? normalized : normalized + '/';
+    }
+
+    var currentPath = normalizePath(window.location.pathname);
+    document.querySelectorAll('.nav-link').forEach(function (link) {
+      var linkPath = normalizePath(new URL(link.href, window.location.origin).pathname);
+      var active = linkPath === currentPath;
+      link.classList.toggle('is-active', active);
+      if (active) {
+        link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  }());
+</script>
