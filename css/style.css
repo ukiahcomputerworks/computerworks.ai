@@ -825,7 +825,8 @@ main { display: block; padding: 2rem 0 3rem; }
   body { background-attachment: scroll; }
   .site-shell { padding: 0 0.75rem; }
   .logo-banner { padding: 0 0.75rem; }
-  .brand-logo { max-width: 330px; }
+  /* Keep the complete logo mark visible on narrow screens, including "of Ukiah". */
+  .brand-logo { max-width: 330px; margin-bottom: 0; }
   .site-header-inner { flex-wrap: wrap; justify-content: center; text-align: center; }
   .menu-toggle { display: block; }
   .nav-inner { flex-direction: column; display: none; }
