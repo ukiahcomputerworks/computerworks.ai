@@ -11,7 +11,7 @@ published: true
     <div class="digital-hero-copy">
       <p class="eyebrow">Since 2006 <span aria-hidden="true">/</span> senior infrastructure practice</p>
       <h1 class="main-title">Microsoft Infrastructure, Networks, and Recovery Under One Accountable Technical Partner</h1>
-      <p class="hero-lead">We eliminate the vendor finger-pointing by taking absolute responsibility for the systems behind your daily operations. Whether we are engineering Active Directory and Hyper-V environments, locking down firewalls, or ensuring your backups are actually recoverable, Computer Works of Ukiah manages it all under one roof.</p>
+      <p class="hero-lead">We eliminate the vendor finger-pointing by taking absolute responsibility for the systems behind your daily operations. Whether we are engineering Active Directory and Hyper-V environments, locking down firewalls, or ensuring your backups are actually recoverable, ComputerWorks.AI manages it all under one roof.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="tel:7074628275">Call (707) 462-8275</a>
         <a class="btn btn-ghost" href="{{ site.baseurl }}/contact/">Discuss your environment</a>

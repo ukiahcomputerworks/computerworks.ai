@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Computer Works of Ukiah: Site Stylesheet
+   ComputerWorks.AI: Site Stylesheet
    Replaces: drupal.css, img_assist.css, devel.css (Drupal-era, removed)
    ========================================================================== */
 
@@ -825,7 +825,7 @@ main { display: block; padding: 2rem 0 3rem; }
   body { background-attachment: scroll; }
   .site-shell { padding: 0 0.75rem; }
   .logo-banner { padding: 0 0.75rem; }
-  /* Keep the complete logo mark visible on narrow screens, including "of Ukiah". */
+  /* Keep the complete ComputerWorks.AI logo mark visible on narrow screens. */
   .brand-logo { max-width: 330px; margin-bottom: 0; }
   .site-header-inner { flex-wrap: wrap; justify-content: center; text-align: center; }
   .menu-toggle { display: block; }

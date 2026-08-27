@@ -1,8 +1,8 @@
 # Site settings
-title: Computer Works of Ukiah
+title: ComputerWorks.AI
 slogan: Maintaining Satisfied Customers Since 2006!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.computerworksofukiah.com" # the base hostname & protocol for your site
+url: "https://www.computerworks.ai" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
