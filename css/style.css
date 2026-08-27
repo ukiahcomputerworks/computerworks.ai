@@ -134,7 +134,7 @@ p { margin: 0 0 1em; }
   width: 100%;
   max-width: 510px;
   object-fit: contain;
-  margin: max(-22px, -4.2vw) auto max(-27px, -5vw);
+  margin: 0 auto max(-27px, -5vw);
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.32));
 }
 
