@@ -6,6 +6,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_ROUTES = {
     "index.html",
+    "invoices.md",
     "business-it-infrastructure.md",
     "clientele.md",
     "automation.md",
@@ -33,6 +34,7 @@ config = (ROOT / "_config.yml").read_text(encoding="utf-8")
 header = (ROOT / "_includes" / "header.html").read_text(encoding="utf-8")
 footer = (ROOT / "_includes" / "footer.html").read_text(encoding="utf-8")
 contact = (ROOT / "contact.md").read_text(encoding="utf-8")
+invoices = (ROOT / "invoices.md").read_text(encoding="utf-8")
 cname = (ROOT / "CNAME").read_text(encoding="utf-8").strip()
 
 checks = {
@@ -44,6 +46,9 @@ checks = {
     "footer brand": "ComputerWorks.AI" in footer,
     "Wufoo account preserved": "'userName':'computerworksofukiah'" in contact,
     "Wufoo form preserved": "'formHash':'z9cbgzd0wxkahu'" in contact,
+    "invoice shortcut route": "permalink: /invoices/" in invoices,
+    "invoice shortcut target": "https://ukiahcomputerworks.sharepoint.com/sites/Invoincing/SitePages/Dashboard.aspx" in invoices,
+    "invoice shortcut excluded from indexing": '<meta name="robots" content="noindex, nofollow">' in invoices,
 }
 for name, passed in checks.items():
     if not passed:
