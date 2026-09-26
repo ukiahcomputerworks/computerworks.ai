@@ -14,7 +14,7 @@ published: true
       <p class="hero-lead">When a small website problem is costing calls, leads, or credibility, you should not need to start a six-week redesign just to get it fixed.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="{{ site.baseurl }}/contact/">Request a 15-Minute Fit Check</a>
-        <a class="btn btn-ghost" href="tel:7074628275">Call (707) 462-8275</a>
+        <a class="btn btn-ghost" href="tel:7073918275">Call (707) 391-8275</a>
       </div>
     </div>
   </div>

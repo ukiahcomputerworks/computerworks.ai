@@ -90,7 +90,7 @@ published: true
     <p>We learn how the work actually gets done, then build a practical way to make it faster, easier, and far more reliable.</p>
     <div class="hero-actions">
       <a class="btn btn-signal" href="{{ site.baseurl }}/contact/">Start the Conversation</a>
-      <a class="text-link-light" href="tel:7074628275">Call (707) 462-8275</a>
+      <a class="text-link-light" href="tel:7073918275">Call (707) 391-8275</a>
     </div>
   </section>
 </section>

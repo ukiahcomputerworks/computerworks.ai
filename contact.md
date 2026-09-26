@@ -7,7 +7,7 @@ published: true
 page_class: standard-title
 ---
 
-<p>Call <a class="phone-cta" href="tel:7074628275">(707) 462-8275</a> or fill out the form below with any questions. Thank you.</p>
+<p>Call <a class="phone-cta" href="tel:7073918275">(707) 391-8275</a> or fill out the form below with any questions. Thank you.</p>
 
 <div id="wufoo-z9cbgzd0wxkahu"></div>
 <script type="text/javascript">
