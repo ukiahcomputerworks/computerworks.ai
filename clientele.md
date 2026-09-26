@@ -14,7 +14,6 @@ page_class: standard-title clientele-page
 <p>For most of our clients, Computer Works manages far more than individual workstations. We take ownership of the underlying infrastructure: Microsoft servers and identity management, virtualization, secure remote access, networks, and firewalls. We handle the invisible necessities: endpoint security, active backups, and vendor coordination. We provide immediate, hands-on recovery the moment something critical fails.</p>
 
 <ul class="two-col-list">
-  <li><a href="https://www.alpha-labs.com/" target="_blank" rel="noopener" title="Complete Network and Server Support">Alpha Analytical Laboratories</a></li>
   <li>B&amp;B Industrial Hardware &amp; Metal</li>
   <li><a href="https://www.btcsd.org/" target="_blank" rel="noopener">Brooktrails Fire Department</a></li>
   <li><a href="https://www.btcsd.org/" target="_blank" rel="noopener">Brooktrails Township Community Services District</a></li>
