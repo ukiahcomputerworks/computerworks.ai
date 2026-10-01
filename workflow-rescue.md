@@ -10,8 +10,8 @@ published: true
   <div class="digital-hero rescue-hero">
     <div class="digital-hero-copy">
       <p class="eyebrow">Fixed scope <span aria-hidden="true">/</span> 48-hour turnaround</p>
-      <h1 class="main-title">48-Hour Web &amp; Workflow Rescue</h1>
-      <p class="hero-lead">When a small website problem is costing calls, leads, or credibility, you should not need to start a six-week redesign just to get it fixed.</p>
+      <h1 class="main-title">Rapid Web Rescue</h1>
+      <p class="hero-lead">Make every element of your website work to your advantage. Small website problems could be costing you calls, leads, or credibility that can be fixed without a complete redesign.</p>
       <div class="hero-actions">
         <a class="btn btn-signal" href="{{ site.baseurl }}/contact/">Request a 15-Minute Fit Check</a>
         <a class="btn btn-ghost" href="tel:7073918275">Call (707) 391-8275</a>
