@@ -9,7 +9,7 @@ page_class: standard-title
 
 <p>Call <a class="phone-cta" href="tel:7073918275">(707) 391-8275</a> or fill out the form below with any questions. Thank you.</p>
 
-<div id="wufoo-z9cbgzd0wxkahu"></div>
+<div id="wufoo-z9cbgzd0wxkahu" class="contact-form"></div>
 <script type="text/javascript">
 var z9cbgzd0wxkahu;
 (function(d, t) {
