@@ -861,6 +861,15 @@ main { display: block; padding: 2rem 0 3rem; }
 }
 .embed-wrap iframe { width: 100%; height: 450px; border: 0; }
 
+/* Wufoo uses dark labels over a transparent embedded form. */
+.contact-form {
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+  color-scheme: light;
+}
+.contact-form iframe { display: block; background: #fff; }
+
 /* ---------- Footer ---------- */
 
 .site-footer {
